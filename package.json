@@ -1,0 +1,25 @@
+{
+  "name": "final-form-focus-on-fist-field",
+  "version": "0.0.1",
+  "description": "Final Form \"decorator\" that will attempt to apply focus to the first field on the form",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siropkin/final-form-focus-on-fist-field.git"
+  },
+  "keywords": [
+    "final-form",
+    "decorators",
+    "focus",
+    "autoFocus"
+  ],
+  "author": "Ivan Seredkin <ivan.seredkin@gmail.com> (https://github.com/siropkin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siropkin/final-form-focus-on-fist-field/issues"
+  },
+  "homepage": "https://github.com/siropkin/final-form-focus-on-fist-field#readme"
+}
