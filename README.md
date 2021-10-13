@@ -9,6 +9,12 @@
 npm install --save final-form-focus-on-first-field
 ```
 
+or
+
+```bash
+yarn add final-form-focus-on-first-field
+```
+
 ## Usage
 
 ### 🏁 React Final Form Usage
