@@ -18,8 +18,8 @@ const findFirstInput = (inputs, names) => inputs.find((input) => names.includes(
 
 const createDecorator = (focusOnFields) => (form) => {
     return form.subscribe(
-        () => {
-            if (focusOnFields === false) {
+        ({ touched }) => {
+            if (focusOnFields === false || Object.values(touched).some(Boolean)) {
                 return;
             }
 
@@ -32,7 +32,7 @@ const createDecorator = (focusOnFields) => (form) => {
                 firstInput.focus();
             }
         },
-        {},
+        { touched: true },
     );
 };
 

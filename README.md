@@ -22,7 +22,7 @@ yarn add final-form-focus-on-first-field
 ```js
 import React from 'react';
 import { Form, Field } from 'react-final-form';
-import createFocusOnFirstFieldDecorator from './focusOnFirstFieldDecorator';
+import createFocusOnFirstFieldDecorator from 'final-form-focus-on-first-field';
 
 const focusOnFirstFieldDecorator = createFocusOnFirstFieldDecorator();
 
@@ -47,7 +47,7 @@ const MyForm = () => (
 ```js
 import React, { useMemo } from 'react';
 import { Form, Field } from 'react-final-form';
-import createFocusOnFirstFieldDecorator from './focusOnFirstFieldDecorator';
+import createFocusOnFirstFieldDecorator from 'final-form-focus-on-first-field';
 
 const MyForm = ({ focusOnFields }) => {
     const focusOnFirstFieldDecorator = useMemo(() => createFocusOnFirstFieldDecorator(focusOnFields), []);
