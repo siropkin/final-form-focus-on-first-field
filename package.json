@@ -1,6 +1,6 @@
 {
-  "name": "final-form-focus-on-fist-field",
-  "version": "0.0.3",
+  "name": "final-form-focus-on-first-field",
+  "version": "0.0.4",
   "description": "Final Form \"decorator\" that will attempt to apply focus to the first field on the form",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/siropkin/final-form-focus-on-fist-field.git"
+    "url": "git+https://github.com/siropkin/final-form-focus-on-first-field.git"
   },
   "keywords": [
     "final-form",
@@ -19,7 +19,7 @@
   "author": "Ivan Seredkin <ivan.seredkin@gmail.com> (https://github.com/siropkin)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/siropkin/final-form-focus-on-fist-field/issues"
+    "url": "https://github.com/siropkin/final-form-focus-on-first-field/issues"
   },
-  "homepage": "https://github.com/siropkin/final-form-focus-on-fist-field#readme"
+  "homepage": "https://github.com/siropkin/final-form-focus-on-first-field#readme"
 }

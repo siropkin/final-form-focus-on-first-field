@@ -1,4 +1,4 @@
-# 🏁 Final Form Focus On Fist Field
+# 🏁 Final Form Focus On First Field
 [🏁 Final Form](https://github.com/final-form/final-form) "decorator" that will attempt to apply focus to the first field on the form.
 
 ---
@@ -22,14 +22,14 @@ yarn add final-form-focus-on-first-field
 ```js
 import React from 'react';
 import { Form, Field } from 'react-final-form';
-import createFocusOnFistFieldDecorator from './focusOnFistFieldDecorator';
+import createFocusOnFirstFieldDecorator from './focusOnFirstFieldDecorator';
 
-const focusOnFistFieldDecorator = createFocusOnFistFieldDecorator();
+const focusOnFirstFieldDecorator = createFocusOnFirstFieldDecorator();
 
 const MyForm = () => (
     <Form
         onSubmit={submit}
-        decorators={[focusOnFistFieldDecorator]} // <---------
+        decorators={[focusOnFirstFieldDecorator]} // <---------
         validate={validate}
         render={({ handleSubmit }) =>
             <form onSubmit={handleSubmit}>
@@ -47,15 +47,15 @@ const MyForm = () => (
 ```js
 import React, { useMemo } from 'react';
 import { Form, Field } from 'react-final-form';
-import createFocusOnFistFieldDecorator from './focusOnFistFieldDecorator';
+import createFocusOnFirstFieldDecorator from './focusOnFirstFieldDecorator';
 
 const MyForm = ({ focusOnFields }) => {
-    const focusOnFistFieldDecorator = useMemo(() => createFocusOnFistFieldDecorator(focusOnFields), []);
+    const focusOnFirstFieldDecorator = useMemo(() => createFocusOnFirstFieldDecorator(focusOnFields), []);
     
     return (
         <Form
             onSubmit={submit}
-            decorators={[focusOnFistFieldDecorator]} // <---------
+            decorators={[focusOnFirstFieldDecorator]} // <---------
             validate={validate}
             render={({ handleSubmit }) =>
                 <form onSubmit={handleSubmit}>
