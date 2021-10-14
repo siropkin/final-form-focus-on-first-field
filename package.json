@@ -1,6 +1,6 @@
 {
   "name": "final-form-focus-on-fist-field",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Final Form \"decorator\" that will attempt to apply focus to the first field on the form",
   "main": "src/index.js",
   "scripts": {
