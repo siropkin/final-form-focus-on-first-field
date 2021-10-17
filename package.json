@@ -1,6 +1,6 @@
 {
   "name": "final-form-focus-on-first-field",
-  "version": "0.0.6",
+  "version": "1.0.1",
   "description": "Final Form \"decorator\" that will attempt to apply focus to the first field on the form",
   "main": "src/index.js",
   "scripts": {

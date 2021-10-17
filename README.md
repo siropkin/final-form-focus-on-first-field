@@ -77,6 +77,12 @@ const MyForm = ({ focusOnFields }) => {
 <MyForm focusOnFields={['name', 'description']} />
 ```
 
+## Example
+
+### [Focus On First Field](https://codesandbox.io/s/final-form-focus-on-first-field-mmurt?file=/index.js)
+
+Demonstrates how 🏁 Final Form Focus On First Field works with [🏁 React Final Form](https://github.com/final-form/react-final-form#-react-final-form).
+
 
 ## API
 
