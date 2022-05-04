@@ -1,9 +1,14 @@
 {
   "name": "final-form-focus-on-first-field",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Final Form \"decorator\" that will attempt to apply focus to the first field on the form",
-  "main": "src/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "rollup": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/siropkin/final-form-focus-on-first-field/issues"
   },
-  "homepage": "https://github.com/siropkin/final-form-focus-on-first-field#readme"
+  "homepage": "https://github.com/siropkin/final-form-focus-on-first-field#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "22.0.0",
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "rollup": "2.71.1"
+  }
 }
